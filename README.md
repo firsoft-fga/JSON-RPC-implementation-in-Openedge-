@@ -1,6 +1,6 @@
 # JSON-RPC implementation in Openedge
 
-Openedge json-rpc library for OE 12.8 .
+Openedge json-rpc library for OE 12.8 .   
 Version 0.66 .
 
 Library entry point call:  oe4jrpc.p(oRequest,oResponce) .
