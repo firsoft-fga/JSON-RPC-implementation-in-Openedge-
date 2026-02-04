@@ -25,8 +25,8 @@ Limitations:
 
  3. not supported protocol batch mode.
 
-Example how use library:
- pwh_jrpc.cls  in webhandler as json-rpc server in HTTP protocol
+Example how use library:   
+ pwh_jrpc.cls  in webhandler as json-rpc server in HTTP protocol    
  mq2oejrpc.p   in any message queue system like KAFKA,Sonic,RabbitMQ and so on.
 
 Source codes are provided by agreement .
