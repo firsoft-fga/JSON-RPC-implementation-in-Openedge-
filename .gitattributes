@@ -1,0 +1,4 @@
+*.p linguist-language=OpenEdge-ABL
+*.w linguist-language=OpenEdge-ABL
+*.cls linguist-language=OpenEdge-ABL
+*.pl linguist-language=OpenEdge-ABL
