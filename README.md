@@ -1,6 +1,10 @@
 # JSON-RPC implementation in Openedge
 
-Openedge json-rpc library for OE 12.8 .   
+Openedge json-rpc library for OE 12.8 .
+
+Version 0.67 .
+Added constructor as class method in format a.b.c.c  where c - constructor  a.b.c  - class name .
+
 Version 0.66 .
 
 Library entry point call:  oe4jrpc.p(oRequest,oResponce) .
@@ -27,7 +31,7 @@ Limitations:
 
 Example how use library:   
  pwh_jrpc.cls  in webhandler as json-rpc server in HTTP protocol    
- mq2oejrpc.p   in any message queue system like KAFKA,Sonic,RabbitMQ and so on.
+ mq2oejrpc.p(injsonstring,outjsonstring)   in any message queue system like KAFKA,Sonic,RabbitMQ and so on.
 
 Source codes are provided by agreement .
 
